@@ -1,0 +1,39 @@
+.content{
+    margin-left: 4vw;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.e-mail {
+    width: 30vw;
+    
+}
+
+.vorname{
+    width: 15vw;
+}
+
+.name{
+    width: 15vw;
+}
+
+.eingabe{
+    width: 90vw;
+    height: 50vh;
+    background-color: white;
+}
+
+.apply {
+    width: 10vw;
+    background-color: white;
+    padding: 0.5vh;
+    margin-top: 1vh;
+    
+}
+
+@media (max-width: 800px){
+    .e-mail{
+        margin-right:66vw;
+    }
+
+}

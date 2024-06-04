@@ -1,0 +1,32 @@
+
+
+img {
+    width: 100%;
+}
+
+.name{
+    position: absolute;
+    color: white;
+    margin-left: 20vw;
+    font-size: 10vw;
+    
+}
+
+.text {
+    height: 10vh;
+    margin: 25vw;
+    margin-top: 10vh;
+    margin-bottom: 50vh;
+    width: 50vw;
+    text-align: center;
+}
+
+@media (max-width:800px){
+    .text {
+        font-size: 1em;
+    }
+
+    h1{
+        margin: 20px;
+    }
+}

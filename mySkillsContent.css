@@ -1,0 +1,16 @@
+.text{
+    margin: 5vh;
+    display: flex;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width: 800px){
+    .text{
+        justify-content:space-between;
+        flex-direction: row;
+        align-items:center;
+    }
+}
